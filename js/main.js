@@ -1,7 +1,7 @@
-var a=1;
+var b=1;
 let stop=setInterval(function(time){
-    a++;
-    if(a>10){
+    b++;
+    if(b>10){
         clearInterval(stop);
     }
     document.write(new Date().toLocaleTimeString()+" Welcome");
